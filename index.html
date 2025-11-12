@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+    <header>
+            <a href="index.html" id="Logo"><img src="img\Logo.svg" ></a>
+            <a href="send.html">Отправить</a>
+            <a href="track.html">Отследить</a>
+            <a href="#footer">Контакты</a>
+            <a href="about.html">О нас</a>
+            <a href="register.html">Зарегистрироваться</a>
+    </header>
+<main>
+    <div class="block" id="block1">
+        <h3 id="addstyle">Отправить посылку</h3>
+        <input type="text" placeholder="Откуда" class="sblock, sblock1">
+        <input type="text" placeholder="Куда" class="sblock, sblock1">
+        <select placeholder="Размер" class="sblock, sblock1">
+            <option value="" disabled selected>Размер</option>
+            <option>50x50 см</option>
+            <option>100x100 см</option>
+        </select>
+        <select placeholder="Вес" class="sblock, sblock1">
+            <option value="" disabled selected>Вес</option>
+            <option> &lt 500 г</option>
+            <option> 500 г - 1,5 кг</option>
+        </select>
+        <a href="send.html" class="test"><button id="sbutton1" style="margin-left: 5%;">Рассчитать</button></a>
+    </div>
+        <div class="block" id="block2">
+            <h3>Отследить посылку</h3>
+            <input type="text" placeholder="Откуда" class="sblock, sblock2">
+            <a href="track.html" class="test"><input type="image" src="img\Vector.svg" id="sbutton2" ></a>
+    </div>
+    <h2>О нас</h2>
+    <div class="block" id="block3">
+        <h3 style="font-weight: 600;">ПСП</h3>
+        <p id="description">ПСП - крупный игрок с многолетним стажем 500 лет на рынке доставок. За это время мы заключили партнёрство с множеством компаний. Каждый год наши проффесионалы доставляют более 1000000 посылок. При этом мы работаем круглосуточно, обеспечивая комфорт, удобство и быстроту доставки.</p>
+        <img src="img/delivery.png" id="delivery">
+    </div>
+    <h2>Где мы находимся</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1339.934602689909!2d37.20880930774715!3d55.61084724818936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b556dbb19550ab%3A0xd5e0afe5d2345a79!2z0YPQuy4g0J_Rg9GI0LrQuNC90LAsIDE1LCDQnNC-0YHQutCy0LAsIDE0MzM1MA!5e0!3m2!1sru!2sru!4v1762338570475!5m2!1sru!2sru" width="1350" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</main>
+    <footer id="footer">
+    <div id="ftextblock">
+    <p class="ftext">8 (800) 100-10-10</p>
+    <p class="ftext">г. Москва, ул. Пушкина 15</p> 
+    <p class="ftext">© Почтовый Сервис Печкина</p>
+    </div>
+    <div id="flinkblock">
+    <a class="ftext" href="send.html">Отправка посылки</a>
+    <a class="ftext" href="track.html">Отслеживание посылки</a>
+    <a class="ftext" href="profile.html">Личный кабинет</a>
+    </div>
+    </footer>
+</div>
+</body>
+</html>

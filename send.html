@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+    <header>
+            <a href="index.html" id="Logo"><img src="img\Logo.svg" ></a>
+            <a href="send.html">Отправить</a>
+            <a href="track.html">Отследить</a>
+            <a href="#footer">Контакты</a>
+            <a href="about.html">О нас</a>
+            <a href="register.html">Зарегистрироваться</a>
+    </header>
+<main>
+    <div class="block" id="block4">
+        <h3 style="font-weight: 600;">Отправитель</h3>
+        <input type="text" placeholder="Адрес отправителя" class="sblock, sblock2">
+        <input type="text" placeholder="Телефон отправителя" class="sblock, sblock2">
+        <input type="text" placeholder="ФИО отправителя" class="sblock, sblock2">
+        <h3 style="font-weight: 600;">Посылка</h3>
+                <select placeholder="Размер" class="sblock, sblock3">
+            <option value="" disabled selected>Размер</option>
+            <option>50x50 см</option>
+            <option>100x100 см</option>
+        </select>
+        <select placeholder="Вес" class="sblock, sblock3">
+            <option value="" disabled selected>Вес</option>
+            <option> &lt 500 г</option>
+            <option> 500 г - 1,5 кг</option>
+        </select>
+    </div>
+        <div class="block" id="block4">
+        <h3 style="font-weight: 600;">Получатель</h3>
+        <input type="text" placeholder="Адрес получателя" class="sblock, sblock2">
+        <input type="text" placeholder="Телефон получателя" class="sblock, sblock2">
+        <input type="text" placeholder="ФИО получателя" class="sblock, sblock2">
+    </div>
+    <div class="block" id="block1">
+        <p id="sum">Итого: ... руб.</p>
+        <button id="sbutton1">Оформить заказ</button>
+    </div>
+   </div>
+</main>
+    <footer id="footer">
+    <div id="ftextblock">
+    <p class="ftext">8 (800) 100-10-10</p>
+    <p class="ftext">г. Москва, ул. Пушкина 15</p> 
+    <p class="ftext">© Почтовый Сервис Печкина</p>
+    </div>
+    <div id="flinkblock">
+    <a class="ftext" href="send.html">Отправка посылки</a>
+    <a class="ftext" href="track.html">Отслеживание посылки</a>
+    <a class="ftext" href="profile.html">Личный кабинет</a>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
